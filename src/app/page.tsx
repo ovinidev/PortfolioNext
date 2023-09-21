@@ -15,7 +15,7 @@ export default function Home() {
           2 anos.
         </p>
         <p>
-          Minhas principais tecnologias hoje é o React, Next e typescript,
+          Minhas principais tecnologias hoje são o React, Next e typescript,
           porém, estou de olho no Vue e Angular.
         </p>
         <p>
