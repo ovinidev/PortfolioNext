@@ -3,7 +3,7 @@ import Typewriter from "typewriter-effect";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-start space-y-14 bg-neutral-50 py-14 text-neutral-900">
+    <main className="bg-background flex min-h-screen flex-col items-center justify-start space-y-14 py-14 text-slate-50">
       <div className="flex flex-col items-center space-y-3">
         <Typewriter
           options={{
@@ -17,9 +17,9 @@ export default function Home() {
           }}
         />
         <img
-          className="h-36 rounded-sm"
+          className="h-36"
           alt="vini profile photo"
-          src="https://media.licdn.com/dms/image/D4D03AQFv_NVQrTb_Lw/profile-displayphoto-shrink_200_200/0/1681476680521?e=1700697600&v=beta&t=X5rH0QEE1az1zxPz6QaieiX06vaTv_CoVHwidibS05o"
+          src="https://github.com/ovinidev.png"
         />
       </div>
       <section className="flex w-full flex-col items-start space-y-4 px-8 sm:w-[40rem] lg:w-[60rem]">
@@ -51,7 +51,7 @@ export default function Home() {
           </a>
         </p>
       </section>
-      <div className="flex items-center space-x-4">
+      <div className="text-secondary flex items-center space-x-4">
         <a
           href="https://www.linkedin.com/in/vinimedeiros13"
           className="underline"
