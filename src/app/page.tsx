@@ -4,7 +4,7 @@ import Typewriter from "typewriter-effect";
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-start space-y-14 bg-neutral-50 py-14 text-neutral-900">
-      <div className="flex flex-col items-center space-y-2">
+      <div className="flex flex-col items-center space-y-3">
         <Typewriter
           options={{
             wrapperClassName: "font-bold",
