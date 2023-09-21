@@ -46,7 +46,11 @@ export default function Home() {
         >
           LinkedIn
         </a>
-        <a href="" className="underline" target="_blank">
+        <a
+          href="https://github.com/ovinidev"
+          className="underline"
+          target="_blank"
+        >
           Github
         </a>
       </div>
