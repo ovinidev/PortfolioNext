@@ -9,7 +9,7 @@ export default function Home() {
           src="https://media.licdn.com/dms/image/D4D03AQFv_NVQrTb_Lw/profile-displayphoto-shrink_200_200/0/1681476680521?e=1700697600&v=beta&t=X5rH0QEE1az1zxPz6QaieiX06vaTv_CoVHwidibS05o"
         />
       </div>
-      <section className="flex w-full flex-col items-start space-y-4 px-8 sm:w-[40rem] md:w-[60rem]">
+      <section className="flex w-full flex-col items-start space-y-4 px-8 sm:w-[40rem] lg:w-[60rem]">
         <p>
           Olá, meu nome é Vinícius, tenho 21 anos e sou desenvolvedor frontend a
           2 anos.
