@@ -1,8 +1,21 @@
+"use client";
+import Typewriter from "typewriter-effect";
+
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-start space-y-14 bg-neutral-50 py-14 text-neutral-900">
       <div className="flex flex-col items-center space-y-2">
-        <h1 className="font-bold">Vinícius Medeiros</h1>
+        <Typewriter
+          options={{
+            wrapperClassName: "font-bold",
+          }}
+          onInit={(typewriter) => {
+            typewriter
+              .typeString("Vinícius Medeiros")
+              .pauseFor(1000 * 60 * 60)
+              .start();
+          }}
+        />
         <img
           className="h-36 rounded-sm"
           alt="vini profile photo"
