@@ -44,7 +44,7 @@ export default function Home() {
           Confira alguns vídeos técnicos meus no{" "}
           <a
             className="underline"
-            href="https://www.youtube.com/@vinimedeiros3333/videos"
+            href="https://www.youtube.com/@ovinidev/videos"
             target="_blank"
             rel="noreferrer"
           >
