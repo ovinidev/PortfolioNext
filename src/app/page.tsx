@@ -1,4 +1,5 @@
 "use client";
+import { Link } from "@components/Link";
 import Typewriter from "typewriter-effect";
 
 export default function Home() {
@@ -39,14 +40,16 @@ export default function Home() {
         </p>
         <p>
           Atualmente sou desenvolvedor frontend junior na{" "}
-          <a
-            className="underline"
-            href="https://www.linkedin.com/company/dataside-data-ia"
-            target="_blank"
-            rel="noreferrer"
-          >
-            Dataside.
-          </a>
+          <Link
+            link="https://www.linkedin.com/company/dataside-data-ia"
+            name="Dataside."
+          />
+        </p>
+        <p>
+          Sou professor de desenvolvimento frontend na{" "}
+          <Link link="https://www.inclus.com.br/index.html" name="Inclus." /> A
+          Inclus é uma iniciativa filantrópica que já existe a mais de 10 anos
+          na minha cidade onde ofertam alguns cursos na área de tecnologia.
         </p>
         <p>
           Estou em constante evolução e buscando sempre me aventurar por novos
@@ -54,34 +57,19 @@ export default function Home() {
         </p>
         <p>
           Confira alguns vídeos técnicos meus no{" "}
-          <a
-            className="underline"
-            href="https://www.youtube.com/@ovinidev/videos"
-            target="_blank"
-            rel="noreferrer"
-          >
-            youtube.
-          </a>
+          <Link
+            link="https://www.youtube.com/@ovinidev/videos"
+            name="youtube."
+          />
         </p>
       </section>
 
       <div className="text-secondary flex items-center space-x-4">
-        <a
-          href="https://www.linkedin.com/in/vinimedeiros13"
-          className="underline"
-          target="_blank"
-          rel="noreferrer"
-        >
-          LinkedIn
-        </a>
-        <a
-          href="https://github.com/ovinidev"
-          className="underline"
-          target="_blank"
-          rel="noreferrer"
-        >
-          Github
-        </a>
+        <Link
+          link="https://www.linkedin.com/in/vinimedeiros13"
+          name="LinkedIn"
+        />
+        <Link link="https://github.com/ovinidev" name="Github" />
       </div>
     </main>
   );
