@@ -17,10 +17,7 @@ export default function RootLayout({
   return (
     <html lang="pt-BR">
       <head>
-        <link
-          rel="icon"
-          href="https://i.pinimg.com/originals/1c/54/f7/1c54f7b06d7723c21afc5035bf88a5ef.png"
-        />
+        <link rel="icon" href="https://github.com/ovinidev.png" />
       </head>
       <body className={font.className}>{children}</body>
     </html>
