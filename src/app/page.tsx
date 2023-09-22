@@ -4,7 +4,7 @@ import Typewriter from "typewriter-effect";
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-start space-y-14 bg-background py-14 text-slate-50">
-      <div className=" flex flex-col items-center space-y-3">
+      <div className="flex flex-col items-center space-y-3">
         <Typewriter
           options={{
             wrapperClassName: "font-bold",
@@ -22,6 +22,7 @@ export default function Home() {
           src="https://github.com/ovinidev.png"
         />
       </div>
+
       <section className="flex w-full flex-col items-start space-y-4 px-8 sm:w-[40rem] lg:w-[60rem]">
         <p>
           Olá, meu nome é Vinícius, tenho 21 anos e sou desenvolvedor frontend a
@@ -35,6 +36,17 @@ export default function Home() {
           Já trabalhei com várias tecnologias de estilização como styled
           components, stitches, sass, etc. Hoje estou trabalhando bastante com
           Chakra UI e Tailwind.
+        </p>
+        <p>
+          Atualmente sou desenvolvedor frontend junior na{" "}
+          <a
+            className="underline"
+            href="https://www.linkedin.com/company/dataside-data-ia"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Dataside.
+          </a>
         </p>
         <p>
           Estou em constante evolução e buscando sempre me aventurar por novos
@@ -52,6 +64,7 @@ export default function Home() {
           </a>
         </p>
       </section>
+
       <div className="text-secondary flex items-center space-x-4">
         <a
           href="https://www.linkedin.com/in/vinimedeiros13"
