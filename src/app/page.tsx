@@ -3,8 +3,8 @@ import Typewriter from "typewriter-effect";
 
 export default function Home() {
   return (
-    <main className="bg-background flex min-h-screen flex-col items-center justify-start space-y-14 py-14 text-slate-50">
-      <div className="flex flex-col items-center space-y-3">
+    <main className="flex min-h-screen flex-col items-center justify-start space-y-14 bg-background py-14 text-slate-50">
+      <div className=" flex flex-col items-center space-y-3">
         <Typewriter
           options={{
             wrapperClassName: "font-bold",
@@ -44,8 +44,9 @@ export default function Home() {
           Confira alguns vídeos técnicos meus no{" "}
           <a
             className="underline"
-            href="https://www.youtube.com/@sidelab/videos"
+            href="https://www.youtube.com/@vinimedeiros3333/videos"
             target="_blank"
+            rel="noreferrer"
           >
             youtube.
           </a>
@@ -56,6 +57,7 @@ export default function Home() {
           href="https://www.linkedin.com/in/vinimedeiros13"
           className="underline"
           target="_blank"
+          rel="noreferrer"
         >
           LinkedIn
         </a>
@@ -63,6 +65,7 @@ export default function Home() {
           href="https://github.com/ovinidev"
           className="underline"
           target="_blank"
+          rel="noreferrer"
         >
           Github
         </a>
