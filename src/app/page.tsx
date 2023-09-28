@@ -23,7 +23,7 @@ export default function Home() {
         </p>
         <p>
           Minhas principais tecnologias hoje são o React, Next e typescript,
-          porém, estou estudando Vue e em breve Angular.
+          porém, estou estudando Vue e, em breve, Angular.
         </p>
         <p>
           Já trabalhei com várias tecnologias de estilização como styled
@@ -39,9 +39,9 @@ export default function Home() {
         </p>
         <p>
           Sou professor de desenvolvimento frontend na{" "}
-          <Link link="https://www.inclus.com.br/index.html" name="Inclus." /> A
-          Inclus é uma iniciativa filantrópica que já existe a mais de 10 anos
-          na minha cidade onde ofertam alguns cursos na área de tecnologia.
+          <Link link="https://www.inclus.com.br/index.html" name="Inclus." />,
+          uma iniciativa filantrópica consolidada em minha cidade há 10 anos, na
+          qual oferta alguns cursos na área de tecnologia.
         </p>
         <p>
           Estou em constante evolução e buscando sempre me aventurar por novos
