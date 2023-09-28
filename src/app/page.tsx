@@ -69,7 +69,10 @@ export default function Home() {
             name="LinkedIn"
           />
           <Link link="https://github.com/ovinidev" name="Github" />
-          <Link link="https://youtube.com/ovinidev" name="Youtube" />
+          <Link
+            link="https://www.youtube.com/channel/UCpnNH4Q4gWA_3GB4LNn8dhQ"
+            name="Youtube"
+          />
         </div>
       </div>
     </main>
