@@ -6,7 +6,7 @@ import { TECHNOLOGIES } from "@constants/technologies";
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-start space-y-14 bg-background py-14 text-slate-50">
-      <header className="flex flex-col items-center space-y-3">
+      <header className="flex flex-col items-center space-y-4">
         <Typewriter />
 
         <img
