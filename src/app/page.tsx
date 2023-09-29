@@ -6,11 +6,11 @@ import { TECHNOLOGIES } from "@constants/technologies";
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-start space-y-14 bg-background py-14 text-slate-50">
-      <header className="flex flex-col items-center space-y-4">
+      <header className="flex h-44 w-44 flex-col items-center justify-between">
         <Typewriter />
 
         <img
-          className="h-36"
+          className="h-36 rounded-full"
           alt="vini profile photo"
           src="https://github.com/ovinidev.png"
         />
