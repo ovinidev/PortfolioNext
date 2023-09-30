@@ -3,6 +3,7 @@ import type { Metadata } from "next";
 import { JetBrains_Mono } from "next/font/google";
 import { Typewriter } from "@components/Typewriter";
 import Link from "next/link";
+import Image from "next/image";
 
 const font = JetBrains_Mono({ subsets: ["latin"] });
 
@@ -27,8 +28,10 @@ export default function RootLayout({
             <Typewriter />
 
             <Link href="/">
-              <img
-                className="h-36 cursor-pointer rounded-full"
+              <Image
+                height={144}
+                width={144}
+                // className="h-36 cursor-pointer rounded-full"
                 alt="vini profile photo"
                 src="https://github.com/ovinidev.png"
               />
