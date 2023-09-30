@@ -1,21 +1,11 @@
 import { Link } from "@components/Link";
 import { Logo } from "@components/Logo";
-import { Typewriter } from "@components/Typewriter";
 import { TECHNOLOGIES } from "@constants/technologies";
+import NextLink from "next/link";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-start space-y-14 bg-background py-14 text-slate-50">
-      <header className="flex h-44 w-44 flex-col items-center justify-between">
-        <Typewriter />
-
-        <img
-          className="h-36 rounded-full"
-          alt="vini profile photo"
-          src="https://github.com/ovinidev.png"
-        />
-      </header>
-
+    <>
       <section className="flex w-full flex-col items-start space-y-4 px-8 sm:w-[40rem] lg:w-[60rem]">
         <p>
           Olá, meu nome é Vinícius, tenho 21 anos e sou desenvolvedor frontend a
@@ -49,19 +39,18 @@ export default function Home() {
         </p>
         <p>
           Confira alguns vídeos técnicos meus no{" "}
-          <Link
-            link="https://www.youtube.com/@ovinidev/videos"
-            name="youtube."
-          />
+          <NextLink className="underline" href="/youtube">
+            youtube.
+          </NextLink>
         </p>
       </section>
 
-      <div className="flex flex-col items-center space-y-6">
-        <div className="flex flex-wrap items-center gap-3 px-8">
+      <div className="flex flex-col items-center space-y-6 px-8 pb-14">
+        <section className="flex flex-wrap items-center gap-3">
           {TECHNOLOGIES.map((tech) => {
             return <Logo key={tech.alt} alt={tech.alt} src={tech.src} />;
           })}
-        </div>
+        </section>
 
         <footer className="text-secondary flex items-center space-x-4">
           <Link
@@ -75,6 +64,6 @@ export default function Home() {
           />
         </footer>
       </div>
-    </main>
+    </>
   );
 }
