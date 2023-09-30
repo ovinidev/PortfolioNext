@@ -63,7 +63,7 @@ export default function Home() {
           })}
         </div>
 
-        <div className="text-secondary flex items-center space-x-4">
+        <footer className="text-secondary flex items-center space-x-4">
           <Link
             link="httEps://www.linkedin.com/in/vinimedeiros13"
             name="LinkedIn"
@@ -73,7 +73,7 @@ export default function Home() {
             link="https://www.youtube.com/channel/UCpnNH4Q4gWA_3GB4LNn8dhQ"
             name="Youtube"
           />
-        </div>
+        </footer>
       </div>
     </main>
   );
