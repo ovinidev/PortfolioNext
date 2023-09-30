@@ -31,7 +31,6 @@ export default function RootLayout({
               <Image
                 height={144}
                 width={144}
-                // className="h-36 cursor-pointer rounded-full"
                 alt="vini profile photo"
                 src="https://github.com/ovinidev.png"
               />

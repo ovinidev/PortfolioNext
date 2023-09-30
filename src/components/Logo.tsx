@@ -1,7 +1,7 @@
-import { ComponentProps } from "react";
+import Image, { ImageProps } from "next/image";
 
-interface LogoProps extends ComponentProps<"img"> {}
+interface LogoProps extends ImageProps {}
 
 export function Logo(props: LogoProps) {
-  return <img className="h-12" {...props} />;
+  return <Image height={48} width={48} {...props} />;
 }
