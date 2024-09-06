@@ -8,38 +8,38 @@ import Image from "next/image";
 const font = JetBrains_Mono({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Vini Medeiros",
-  description: "Portfólio pessoal",
+	title: "Vini Medeiros",
+	description: "Portfólio pessoal",
 };
 
 export default function RootLayout({
-  children,
+	children,
 }: {
-  children: React.ReactNode;
+	children: React.ReactNode;
 }) {
-  return (
-    <html lang="pt-BR">
-      <head>
-        <link rel="icon" href="https://github.com/ovinidev.png" />
-      </head>
-      <body className={font.className}>
-        <main className="flex min-h-screen flex-col items-center justify-start space-y-14 bg-background pt-14 text-slate-50">
-          <header className="flex h-44 w-44 flex-col items-center justify-between">
-            <Typewriter />
+	return (
+		<html lang="pt-BR" className="bg-[#310321]">
+			<head>
+				<link rel="icon" href="https://github.com/ovinidev.png" />
+			</head>
+			<body className={font.className}>
+				<main className="flex min-h-screen flex-col items-center justify-start space-y-14 bg-background pt-14 text-slate-50">
+					<header className="flex h-44 w-44 flex-col items-center justify-between">
+						<Typewriter />
 
-            <Link href="/">
-              <Image
-                height={144}
-                width={144}
-                alt="vini profile photo"
-                src="https://github.com/ovinidev.png"
-              />
-            </Link>
-          </header>
+						<Link href="/">
+							<Image
+								height={144}
+								width={144}
+								alt="vini profile photo"
+								src="https://github.com/ovinidev.png"
+							/>
+						</Link>
+					</header>
 
-          {children}
-        </main>
-      </body>
-    </html>
-  );
+					{children}
+				</main>
+			</body>
+		</html>
+	);
 }
